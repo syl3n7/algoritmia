@@ -1,5 +1,5 @@
-int v = 2;
-int pY = 0;
+//int v = 2;
+int pY = 250;
 color cd = color(200, 0, 0);
 color ce = color(0, 100, 0);
 
@@ -23,7 +23,7 @@ void desenho(int t){
   if(mouseX <= 250){
   fill(cd);
   rect(height/2, pY, t, t);
-  pY = pY + v;
+  //pY = pY + v;
   } else {
     
     fill(ce);
