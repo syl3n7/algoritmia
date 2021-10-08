@@ -25,7 +25,7 @@ void draw(){
   background(0, 0, 0);
   stroke(red, green, blue);
   desenhar();
-  
+
 }
 
 void desenhar(){
