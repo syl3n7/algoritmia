@@ -20,7 +20,7 @@ void draw(){
 
 void desenho(int t){
  
-  if(mouseX <= 250){
+  if(mouseX >= 125 && mouseX <=375){
   fill(cd);
   rect(height/2, pY, t, t);
   //pY = pY + v;
