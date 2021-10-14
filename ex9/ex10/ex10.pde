@@ -7,6 +7,7 @@ int posY = 250;
 //tamanho do canvas e no stroke
 void setup() {
   size(500, 500);
+  frameRate(5);
   noStroke();
 }
 
