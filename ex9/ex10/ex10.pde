@@ -7,7 +7,7 @@ int posY = 250;
 //tamanho do canvas e no stroke
 void setup() {
   size(500, 500);
-  frameRate(5);
+  //frameRate(5);
   noStroke();
 }
 
@@ -22,7 +22,7 @@ void drawSphere() {
   int posrY = int( random(50, 450));
   fill(sph);
   ellipse(posX, posY, 100, 100);
-  //usar o "resto" do numero aleatorio para determinar se é par e executar codigo consoante
+  //usar o "resto" do numero aleatorio para determinar se é ímpar e executar codigo consoante
   if (posrX % 2 == 1) {
     posX = posrX;
     posY = 250;
