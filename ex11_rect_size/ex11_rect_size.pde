@@ -2,13 +2,14 @@ Retangulo r ;
 
 void setup() {
   size(500, 500);
-  frameRate(5);
+  frameRate(60);
   rectMode(CENTER);
+  noStroke();
   r = new Retangulo();
 }
 
 void draw() {
-  background(255);
+
   r.desenha();
   r.mover();
 }
