@@ -8,7 +8,7 @@ int moveDistance = 35; // a distancia com q a esfera se vai mexer
 //tamanho do canvas e no stroke + spec. framerate
 void setup() {
 size(500, 500);
-frameRate(15);
+frameRate(30);
 noStroke();
 }
 
