@@ -1,10 +1,7 @@
 //variaveis de cor e posição inicial
 color bg = color(18);
 color sph = color(210);
-int EposX = 250;
-int EposY = 250;
-int RposX = 250;
-int RposY = 250;
+float EposX = 250; float EposY = 250; float RposX = 250; float RposY = 250;
 float d = dist(EposX, EposY, RposX, RposY);
 //float d = dist(EposX, EposY, RposX, RposY); //calcular a distancia entre os dois pontos, como apenas calcula 1x, copiei isto para o draw()
 int moveDistance = 35; // a distancia com q a esfera se vai mexer
@@ -72,13 +69,13 @@ if (randomNum == 1) {
   RposY = RposY - moveDistance;
 }
 //statement block para não deixar a esfera sair do canvas
-if (RposX > 450) {
-  RposX = 450;
+if (RposX > 400) {
+  RposX = 400;
 } else if (RposX < 50) {
   RposX = 50;
 }
-if (RposY > 450) {
-  RposY = 450;
+if (RposY > 400) {
+  RposY = 400;
 } else if (RposY < 50) {
   RposY = 50;
 }
