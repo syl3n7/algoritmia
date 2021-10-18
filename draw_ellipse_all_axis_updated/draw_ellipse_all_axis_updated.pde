@@ -5,7 +5,8 @@ int EposX = 250;
 int EposY = 250;
 int RposX = 250;
 int RposY = 250;
-//float d = dist(EposX, EposY, RposX, RposY); //calcular a distancia entre os dois pontos, como apenas calcula 1x, movi isto para o draw()
+float d = dist(EposX, EposY, RposX, RposY);
+//float d = dist(EposX, EposY, RposX, RposY); //calcular a distancia entre os dois pontos, como apenas calcula 1x, copiei isto para o draw()
 int moveDistance = 35; // a distancia com q a esfera se vai mexer
 
 //tamanho do canvas e no stroke + spec. framerate
