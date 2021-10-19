@@ -1,0 +1,14 @@
+C:\Users\claud\Source\Repos\testbed3\testbed3\bin\Debug\netcoreapp3.1\testbed3.exe
+C:\Users\claud\Source\Repos\testbed3\testbed3\bin\Debug\netcoreapp3.1\testbed3.deps.json
+C:\Users\claud\Source\Repos\testbed3\testbed3\bin\Debug\netcoreapp3.1\testbed3.runtimeconfig.json
+C:\Users\claud\Source\Repos\testbed3\testbed3\bin\Debug\netcoreapp3.1\testbed3.runtimeconfig.dev.json
+C:\Users\claud\Source\Repos\testbed3\testbed3\bin\Debug\netcoreapp3.1\testbed3.dll
+C:\Users\claud\Source\Repos\testbed3\testbed3\bin\Debug\netcoreapp3.1\testbed3.pdb
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.csproj.AssemblyReference.cache
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.AssemblyInfoInputs.cache
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.AssemblyInfo.cs
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.csproj.CoreCompileInputs.cache
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.dll
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.pdb
+C:\Users\claud\Source\Repos\testbed3\testbed3\obj\Debug\netcoreapp3.1\testbed3.genruntimeconfig.cache
