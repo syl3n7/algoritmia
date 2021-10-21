@@ -12,3 +12,17 @@ C:\Users\claud\source\repos\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\mult
 C:\Users\claud\source\repos\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.dll
 C:\Users\claud\source\repos\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.pdb
 C:\Users\claud\source\repos\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.genruntimeconfig.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\bin\Debug\netcoreapp3.1\multiplicar.exe
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\bin\Debug\netcoreapp3.1\multiplicar.deps.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\bin\Debug\netcoreapp3.1\multiplicar.runtimeconfig.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\bin\Debug\netcoreapp3.1\multiplicar.runtimeconfig.dev.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\bin\Debug\netcoreapp3.1\multiplicar.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\bin\Debug\netcoreapp3.1\multiplicar.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.csproj.AssemblyReference.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.AssemblyInfoInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.AssemblyInfo.cs
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\multiplicar\multiplicar\obj\Debug\netcoreapp3.1\multiplicar.genruntimeconfig.cache
