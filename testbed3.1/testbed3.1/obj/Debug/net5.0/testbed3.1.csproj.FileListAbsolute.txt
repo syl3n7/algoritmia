@@ -30,3 +30,11 @@ C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\testbed3.1\testbed3.1\obj\De
 C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\ref\testbed3.1.dll
 C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.pdb
 C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.genruntimeconfig.cache
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.csproj.AssemblyReference.cache
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.AssemblyInfoInputs.cache
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.AssemblyInfo.cs
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.csproj.CoreCompileInputs.cache
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.dll
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\ref\testbed3.1.dll
+C:\Users\claud\Documents\algoritmia\testbed3.1\testbed3.1\obj\Debug\net5.0\testbed3.1.pdb
