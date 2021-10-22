@@ -2,58 +2,21 @@
 
 namespace testbed3
 {
+     
     class Program
     {
-        public static int close = 1;
-        public static int em = -1;
-        static void Main(string[] args) // Main Function
+
+         //usar enum para criar a lista das armas para usar no switch linha 144
+        public enum Weapon_Type
         {
-            do
-            {
-                Console.Clear();
-                Console.WriteLine("Escolha uma opcao:\n1> Roll Dice\n2> DND\n0>Sair");
-                em = Convert.ToInt32(Console.ReadLine());
-                switch (em)
-                {
-                    case 1:
-                        {
-                            Console.Clear();
-                            Main2();
-                            break;
-                        }
+            Dagger,
+            Shortsword,
+            Battleaxe
+        };
+        public static Weapon_Type weapon_Type;
+        public static int close = 1;
 
-                    case 2:
-                        {
-                            Console.Clear();
-                            BasicAttack(0);
-                            break;
-                        }
-
-                    case 0:
-                        {
-
-                            break;
-                        }
-
-                    default:
-                        {
-                            Console.Clear();
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Escolha uma opcao valida!");
-                            Console.ForegroundColor = ConsoleColor.White;
-                            break;
-                        }
-                }
-            }
-            while (em != 0);
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Prima uma tecla para terminar");
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.ReadKey();
-        }
-
-        //funcao para user input dados apenas
-        public static int Main2()
+        static void Main(string[] args) // Main Function
         {
             int dados, qdados;
             do
@@ -84,10 +47,10 @@ namespace testbed3
                         }
                         else
                         {
-                            qdados = Rolldice(dados, qdados);
+                            //qdados = Rolldice(dados, qdados);
+                            BasicAttack(qdados);
                         }
-                    }
-                    while (close != 0);
+                    }while (close != 0);
                 }
                 else if (dados == 0)
                 {
@@ -103,7 +66,10 @@ namespace testbed3
                 }
             }
             while (close != 0);
-            return 0;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Pressione uma tecla para sair");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.ReadKey();
         }
 
         //funcao para rodar e calcular (parte da main2)
@@ -117,15 +83,11 @@ namespace testbed3
             {
                 random = r.Next(1, x + 1);
 
-                if (em == 1)
-                {
-                    soma += random;
-                    Console.WriteLine($"O valor da face {i} é: {random}");
-                }
+                soma += random;
+                Console.WriteLine($"O valor da face {i} é: {random}");
+
             }
 
-            if(em == 1)
-            {
                 Console.WriteLine($"A soma das faces e: {soma}");
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("pressione enter para continuar");
@@ -134,19 +96,10 @@ namespace testbed3
                 Console.Clear();
                 close = 0;
                 return w;
-            }
-            return random;
+
         }
 
-        //usar enum para criar a lista das armas para usar no switch abaixo 
-        public enum Weapon
-        {
-            Dagger,
-            Shortsword,
-            Battleaxe
-        }
-
-
+         
         //funcao para o roll + basic atk + damage
         public static int  BasicAttack(int y)
         {
@@ -165,11 +118,13 @@ namespace testbed3
             }
             else
             {
-               Console.WriteLine("por favor introduza um valor correto");
+
+               Console.WriteLine("Por favor introduza um valor correto");
                
             }
-                
+
             //perguntar ao user quantas faces quer no dado e rolar apenas 1x.
+            Console.Clear();
             Console.WriteLine("Introduza o numero de dots que quer no dado");
             valorcustom = Convert.ToInt32(Console.ReadLine());
             int attk = Rolldice(valorcustom, 1) ;
@@ -178,33 +133,30 @@ namespace testbed3
             Console.WriteLine("Escolhe um valor para o dmg.multiplicador");
             int AC = Convert.ToInt32(Console.ReadLine());
 
-            Weapon weapon = Weapon.Dagger;
-            weapon = Weapon.Battleaxe;
-
             if (attk >= AC)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"Result {attk}: Attack succeeded, rolling for damage…\n");
                 Console.ForegroundColor = ConsoleColor.White; 
-                
-                switch (temp_Weapon, temp1_Weapon, temp2_Weapon)
+
+                switch (weapon_Type)
                 {
 
-                    case weapon.Dagger:
+                    case Weapon_Type.Dagger:
                         {
                             dmg = AC + Rolldice(4, 1);
                             Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;
                         }
-                    case weapon.Shortsword:
+                    case Weapon_Type.Shortsword:
                         {
                             dmg = AC + Rolldice(6, 1);
                             Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;
                         }
-                    case weapon.Battleaxe:
+                    case Weapon_Type.Battleaxe:
                         {
                             dmg = AC + Rolldice(8, 1);
                             Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
@@ -220,6 +172,7 @@ namespace testbed3
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.ReadKey();
                 Console.Clear();
+                close = 1;
             }
             return 0;
         }

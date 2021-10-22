@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\claud\\Documents\\algoritmia\\testbed3.1\\testbed3.1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
