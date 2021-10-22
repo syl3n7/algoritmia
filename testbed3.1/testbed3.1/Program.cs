@@ -138,39 +138,71 @@ namespace testbed3
             return random;
         }
 
+        //usar enum para criar a lista das armas para usar no switch abaixo 
+        public enum weapon
+        {
+            Dagger,
+            Shortsword,
+            Battleaxe
+        }
+
         //funcao para o roll + basic atk + damage
         public static int  BasicAttack(int y)
         {
+
+
+        int valorcustom = 0;
             Console.Clear();
             Console.WriteLine("Escolhe a tua arma: Dagger: 1, Shortsword: 2, Battleaxe: 3");
-            int arma = Convert.ToInt32(Console.ReadLine());
-            int attk = Rolldice(20, 1);
+            //int arma = Convert.ToInt32(Console.ReadLine());
+            string compare = Console.ReadLine();
+            if (compare == "Dagger") {
+
+            } else if (compare == "Shortsword") {
+
+            } else if (compare == "Battlesword") {
+
+            }
+            else
+            {
+               Console.WriteLine("por favor introduza um valor correto");
+               
+            }
+                
+            //perguntar ao user quantas faces quer no dado e rolar apenas 1x.
+            Console.WriteLine("Introduza o numero de dots que quer no dado");
+            valorcustom = Convert.ToInt32(Console.ReadLine());
+            int attk = Rolldice(valorcustom, 1) ;
             int dmg = 0;
-            if (attk >= 10)
+            //adicionar AC | modificador de damage perguntando ao user
+            Console.WriteLine("Escolhe um valor para o dmg.multiplicador");
+            int AC = Convert.ToInt32(Console.ReadLine());
+
+            if (attk >= AC)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"Result {attk}: Attack succeeded, rolling for damage…\n");
-                Console.ForegroundColor = ConsoleColor.White;
-                switch (arma)
+                Console.ForegroundColor = ConsoleColor.White; 
+                switch (weapon)
                 {
 
-                    case 1:
+                    case weapon.Dagger:
                         {
-                            dmg = Rolldice(4, 1);
+                            dmg = AC + Rolldice(4, 1);
                             Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;
                         }
-                    case 2:
+                    case weapon.Shortsword:
                         {
-                            dmg = Rolldice(6, 1);
+                            dmg = AC + Rolldice(6, 1);
                             Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;
                         }
-                    case 3:
+                    case weapon.Battleaxe:
                         {
-                            dmg = Rolldice(8, 1);
+                            dmg = AC + Rolldice(8, 1);
                             Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;

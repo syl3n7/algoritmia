@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\claud\\Source\\Repos\\syl3n7\\testbed-csharp\\testbed\\testbed.csproj",
+      "projectUniqueName": "C:\\Users\\claud\\OneDrive\\Documents\\GitHub\\algoritmia\\testbed1\\testbed\\testbed.csproj",
       "projectName": "testbed",
-      "projectPath": "C:\\Users\\claud\\Source\\Repos\\syl3n7\\testbed-csharp\\testbed\\testbed.csproj",
+      "projectPath": "C:\\Users\\claud\\OneDrive\\Documents\\GitHub\\algoritmia\\testbed1\\testbed\\testbed.csproj",
       "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\claud\\Source\\Repos\\syl3n7\\testbed-csharp\\testbed\\obj\\",
+      "outputPath": "C:\\Users\\claud\\OneDrive\\Documents\\GitHub\\algoritmia\\testbed1\\testbed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
