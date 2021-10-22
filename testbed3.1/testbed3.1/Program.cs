@@ -139,17 +139,17 @@ namespace testbed3
         }
 
         //usar enum para criar a lista das armas para usar no switch abaixo 
-        public enum weapon
+        public enum Weapon
         {
             Dagger,
             Shortsword,
             Battleaxe
         }
 
+
         //funcao para o roll + basic atk + damage
         public static int  BasicAttack(int y)
         {
-
 
         int valorcustom = 0;
             Console.Clear();
@@ -178,12 +178,16 @@ namespace testbed3
             Console.WriteLine("Escolhe um valor para o dmg.multiplicador");
             int AC = Convert.ToInt32(Console.ReadLine());
 
+            Weapon weapon = Weapon.Dagger;
+            weapon = Weapon.Battleaxe;
+
             if (attk >= AC)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"Result {attk}: Attack succeeded, rolling for damage…\n");
                 Console.ForegroundColor = ConsoleColor.White; 
-                switch (weapon)
+                
+                switch (temp_Weapon, temp1_Weapon, temp2_Weapon)
                 {
 
                     case weapon.Dagger:
