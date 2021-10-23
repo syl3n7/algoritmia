@@ -18,14 +18,19 @@ namespace testbed3
 
         static void Main(string[] args) // Main Function
         {
+        
             int dados, qdados;
+             
+            int[] dadosarray = { 4, 6, 8, 10, 12, 20, 100 };//array
             do
             {
                 Console.WriteLine("Introduza um numero: "); // 4, 6, 8, 10, 12, 20 ou 100
                 dados = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
 
-                if (dados == 4 || dados == 6 || dados == 8 || dados == 10 || dados == 12 || dados == 20 || dados == 100)
+                int pos = Array.IndexOf(dadosarray, dados); //criar variavel para guardar a posicao do array
+
+                if (pos > -1 /*verificar existencia de dados no array, faz o mesmo que: if(dados == 4 || dados == 6 || dados == 8 || dados == 10 || dados == 12 || dados == 20 || dados == 100)*/)
                 {
                     do
                     {
@@ -47,8 +52,7 @@ namespace testbed3
                         }
                         else
                         {
-                            //qdados = Rolldice(dados, qdados);
-                            BasicAttack(qdados);
+                            close = BasicAttack(qdados);
                         }
                     }while (close != 0);
                 }
@@ -76,8 +80,8 @@ namespace testbed3
         public static int Rolldice(int x, int w)
         {
             int soma = 0;
-            int random = 0;
-            Random r = new Random();
+            int random;
+            Random r = new();
 
             for (int i = 1; i <= w; i++)
             {
@@ -104,10 +108,10 @@ namespace testbed3
         public static int  BasicAttack(int y)
         {
 
-        int valorcustom = 0;
+        int valorcustom;
             Console.Clear();
-            Console.WriteLine("Escolhe a tua arma: Dagger: 1, Shortsword: 2, Battleaxe: 3");
-            //int arma = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Escolhe a tua arma: Dagger, Shortsword, Battleaxe");
+            
             string compare = Console.ReadLine();
             if (compare == "Dagger") {
 
@@ -118,9 +122,7 @@ namespace testbed3
             }
             else
             {
-
                Console.WriteLine("Por favor introduza um valor correto");
-               
             }
 
             //perguntar ao user quantas faces quer no dado e rolar apenas 1x.
@@ -128,7 +130,7 @@ namespace testbed3
             Console.WriteLine("Introduza o numero de dots que quer no dado");
             valorcustom = Convert.ToInt32(Console.ReadLine());
             int attk = Rolldice(valorcustom, 1) ;
-            int dmg = 0;
+            int dmg;
             //adicionar AC | modificador de damage perguntando ao user
             Console.WriteLine("Escolhe um valor para o dmg.multiplicador");
             int AC = Convert.ToInt32(Console.ReadLine());
@@ -163,6 +165,11 @@ namespace testbed3
                             Console.ReadKey();
                             break;
                         }
+                    default:
+                    {
+                        Console.WriteLine("Por favor introduz uma arma valida.");
+                        break;
+                    }
                 }
             }
             else if (attk <= 10)
@@ -172,9 +179,9 @@ namespace testbed3
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.ReadKey();
                 Console.Clear();
-                close = 1;
+                //close = 1;
             }
-            return 0;
+            return 1;
         }
 
     }
