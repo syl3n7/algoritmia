@@ -2,42 +2,70 @@
 
 namespace foreachTEST
 {
-    internal class Program
+    class Program
     {
-        private static void Main(string[] args)
+        public static int em;
+        public static void Main(string[] args)
         {
-            /*int escolha;
-            
             do
             {
-                Console.WriteLine("selecione uma opcao:\n1-User\n2-Pass\n3-Nome\n4-Password\n0-Sair\n");
-                escolha = Console.Read();
-                switch (escolha)
+                Console.Clear();
+                Console.WriteLine("Selecione uma opcao:\n1-User\n2-Pass\n3-Nome\n4-Password\n0-Sair\n");
+                em = Console.Read();
+
+                switch (em)
                 {
-                    case '1':
+                    case 1:
+                    {
+                        Console.Clear();
                         Console.WriteLine(User());
                         break;
-                    case '2':
+                    }
+
+                    case 2:
+                    {
+                        Console.Clear();
                         Console.WriteLine(Pass());
                         break;
-                    case '3':
+                    }
+
+                    case 3:
+                    {
                         Console.WriteLine(Nomeproprio());
                         break;
-                    case '4':
-                        
+                    }
+
+                    case 4:
+                    {
+                        Console.Write(Password1());
                         break;
+                    }
+
+                    case 0:
+                    {
+
+                        break;
+                    }
+
                     default:
-                        Console.WriteLine("Introduza uma opcao valida\n");
+                    {
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Escolha uma opcao valida!");
+                        Console.ForegroundColor = ConsoleColor.White;
                         break;
+                    }
                 }
-            } while (escolha!=0);
-            */
-            Console.WriteLine(Password1());
+            } while (em != 0);
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Prima uma tecla para terminar");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.ReadKey(); 
         }
 
 
-        private static string User()
-        {
+        static string User() {
             string username, usernametemp;
             Console.WriteLine("introduza o nome de utilizador");
             username = Console.ReadLine();
@@ -47,19 +75,17 @@ namespace foreachTEST
             return usernametemp;
         }
 
-        private static string Pass()
-        {
+        static string Pass() {
             Console.WriteLine("Introduza a password");
             string password, passwordtemp;
             password = Console.ReadLine();
             passwordtemp = password;
             passwordtemp.ToLower();
             passwordtemp.Replace(" ", "_");
-            return passwordtemp;
+        return passwordtemp;
         }
 
-        private static string Nomeproprio()
-        {
+        static string Nomeproprio() {
             string nome, nometemp;
             Console.WriteLine("Introduza um nome");
             nome = Console.ReadLine();
@@ -71,28 +97,24 @@ namespace foreachTEST
             return nome;
         }
 
-        private static string Password1()
-        {
+        static string Password1() {
             Console.WriteLine("introduza a password a definir:");
             var password_user = Console.ReadLine();
-            
             string password_user_temp = "0";
-            
+
             var flag = char.IsDigit(password_user, 0);
-            if (password_user.Length is > 5 and < 8 || flag != true)
-            {
-                password_user_temp = Console.ReadLine();
-                
-            }else if (password_user_temp != password_user)
-            {
-                Console.WriteLine("password invalida!");
+            if (password_user.Length is > 5 and < 8 || flag != true){
+            password_user_temp = Console.ReadLine();
+
+            }else if (password_user_temp != password_user){
+            Console.WriteLine("password invalida!");
             }
-            else
-            {
-                Console.WriteLine("password valida!");
+            else{
+            Console.WriteLine("password valida!");
             }
-            
+
             return password_user;
         }
+
     }
 }
