@@ -132,7 +132,7 @@ namespace testbed3
             int attk = Rolldice(valorcustom, 1) ;
             int dmg;
             //adicionar AC | modificador de damage perguntando ao user
-            Console.WriteLine("Escolhe um valor para o dmg.multiplicador");
+            Console.WriteLine("Escolhe um valor para o dmg.multiplicador(superior a 10)");
             int AC = Convert.ToInt32(Console.ReadLine());
 
             if (attk >= AC)
