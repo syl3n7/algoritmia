@@ -1,32 +1,44 @@
 ﻿using System;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 
 namespace foreachTEST
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
-            string username = User();
-            Console.WriteLine(username);
-
-            string password = Pass();
-            Console.WriteLine(password);
+            /*int escolha;
             
-            string nomefinal = Nomeproprio();
-            Console.WriteLine(nomefinal);
-
-            string password1 = Password1();
-            Console.WriteLine(password1);
-
+            do
+            {
+                Console.WriteLine("selecione uma opcao:\n1-User\n2-Pass\n3-Nome\n4-Password\n0-Sair\n");
+                escolha = Console.Read();
+                switch (escolha)
+                {
+                    case '1':
+                        Console.WriteLine(User());
+                        break;
+                    case '2':
+                        Console.WriteLine(Pass());
+                        break;
+                    case '3':
+                        Console.WriteLine(Nomeproprio());
+                        break;
+                    case '4':
+                        
+                        break;
+                    default:
+                        Console.WriteLine("Introduza uma opcao valida\n");
+                        break;
+                }
+            } while (escolha!=0);
+            */
+            Console.WriteLine(Password1());
         }
 
 
-        static string User()
+        private static string User()
         {
-            String username, usernametemp;
+            string username, usernametemp;
             Console.WriteLine("introduza o nome de utilizador");
             username = Console.ReadLine();
             usernametemp = username;
@@ -35,58 +47,52 @@ namespace foreachTEST
             return usernametemp;
         }
 
-        static string Pass()
+        private static string Pass()
         {
             Console.WriteLine("Introduza a password");
-            String password, passwordtemp;
+            string password, passwordtemp;
             password = Console.ReadLine();
             passwordtemp = password;
             passwordtemp.ToLower();
             passwordtemp.Replace(" ", "_");
             return passwordtemp;
         }
-        
-        static string Nomeproprio()
+
+        private static string Nomeproprio()
         {
-            String nome, nometemp;
+            string nome, nometemp;
             Console.WriteLine("Introduza um nome");
             nome = Console.ReadLine();
             nometemp = nome;
             nometemp.ToLower();
-            String tn = nometemp.Substring(0, 1);
+            var tn = nometemp.Substring(0, 1);
             tn.ToUpper();
             nome = tn + nometemp;
             return nome;
         }
 
-        static string Password1()
+        private static string Password1()
         {
-            for (int i = 0; i < 10; i++)
+            Console.WriteLine("introduza a password a definir:");
+            var password_user = Console.ReadLine();
+            
+            string password_user_temp = "0";
+            
+            var flag = char.IsDigit(password_user, 0);
+            if (password_user.Length is > 5 and < 8 || flag != true)
             {
-                int[] array = {i};
-            }
-
-            Console.WriteLine("introduza a password a definir:")};
-            string password_do_user = Console.ReadLine();
-            string password_do_user_temp;
-            bool flag = char.IsDigit(password_do_user, 0);
-            password_do_user_temp = Console.ReadLine();
-                if (password_do_user.Length > 5 && password_do_user.Length < 8 || flag != true)
+                password_user_temp = Console.ReadLine();
+                
+            }else if (password_user_temp != password_user)
             {
-               password_do_user_temp = Console.ReadLine();
-
-               if (password_do_user == password_do_user_temp)
-                    {
-                        Console.WriteLine("password valida!");
-                    }
-                    else Console.WriteLine("verifique novamente a password");
-
-                }else Console.WriteLine("nao tem o tamanho correto");
+                Console.WriteLine("password invalida!");
             }
-
-    return password_do_user;
+            else
+            {
+                Console.WriteLine("password valida!");
+            }
+            
+            return password_user;
         }
-        
     }
 }
-
