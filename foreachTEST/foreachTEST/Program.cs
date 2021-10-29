@@ -4,44 +4,55 @@ namespace foreachTEST
 {
     class Program
     {
-        public static int em;
+        public static string em;
         public static void Main(string[] args)
         {
+           
             do
             {
                 Console.Clear();
                 Console.WriteLine("Selecione uma opcao:\n1-User\n2-Pass\n3-Nome\n4-Password\n0-Sair\n");
-                em = Console.Read();
+                em = Console.ReadLine();
 
                 switch (em)
                 {
-                    case 1:
+                    case "1":
                     {
                         Console.Clear();
-                        Console.WriteLine(User());
+                        var user = User() ;
+                        Console.WriteLine(user);
+                        Console.ReadKey();
                         break;
                     }
 
-                    case 2:
+                    case "2":
                     {
                         Console.Clear();
-                        Console.WriteLine(Pass());
+                        var pass = Pass();
+                        Console.WriteLine();
+                        Console.ReadKey();
                         break;
                     }
 
-                    case 3:
+                    case "3":
                     {
-                        Console.WriteLine(Nomeproprio());
+                        Console.Clear();
+                        var nome = Nomeproprio();
+                        Console.WriteLine(nome);
+                        Console.ReadKey();
                         break;
                     }
 
-                    case 4:
+                    case "4":
                     {
-                        Console.Write(Password1());
+                        Console.Clear();
+                        var password = Password1();
+                        Console.Write(password);
+                        Console.ReadKey();
                         break;
                     }
 
-                    case 0:
+                    case "0":
                     {
 
                         break;
@@ -53,10 +64,11 @@ namespace foreachTEST
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Escolha uma opcao valida!");
                         Console.ForegroundColor = ConsoleColor.White;
+                        Console.ReadKey();
                         break;
                     }
                 }
-            } while (em != 0);
+            } while (em != "0");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Prima uma tecla para terminar");
@@ -104,15 +116,16 @@ namespace foreachTEST
 
             var flag = char.IsDigit(password_user, 0);
             if (password_user.Length is > 5 and < 8 || flag != true){
-            password_user_temp = Console.ReadLine();
-
-            }else if (password_user_temp != password_user){
-            Console.WriteLine("password invalida!");
+                Console.WriteLine("Introduza novamente a password para validar");
+                password_user_temp = Console.ReadLine();
+            }
+            if (password_user_temp != password_user){
+                Console.WriteLine("password invalida!");
             }
             else{
-            Console.WriteLine("password valida!");
+                Console.WriteLine("password valida!");
             }
-
+            
             return password_user;
         }
 
