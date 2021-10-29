@@ -1,0 +1,16 @@
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\bin\Debug\net5.0\foreachTEST.exe
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\bin\Debug\net5.0\foreachTEST.deps.json
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\bin\Debug\net5.0\foreachTEST.runtimeconfig.json
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\bin\Debug\net5.0\foreachTEST.runtimeconfig.dev.json
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\bin\Debug\net5.0\foreachTEST.dll
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\bin\Debug\net5.0\ref\foreachTEST.dll
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\bin\Debug\net5.0\foreachTEST.pdb
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.csproj.AssemblyReference.cache
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.AssemblyInfoInputs.cache
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.AssemblyInfo.cs
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.csproj.CoreCompileInputs.cache
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.dll
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\ref\foreachTEST.dll
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.pdb
+C:\Users\claud\RiderProjects\foreachTEST\foreachTEST\obj\Debug\net5.0\foreachTEST.genruntimeconfig.cache
