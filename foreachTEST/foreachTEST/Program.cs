@@ -28,22 +28,13 @@ namespace foreachTEST
                     case "2":
                     {
                         Console.Clear();
-                        var pass = Pass();
-                        Console.WriteLine();
-                        Console.ReadKey();
-                        break;
-                    }
-
-                    case "3":
-                    {
-                        Console.Clear();
                         var nome = Nomeproprio();
                         Console.WriteLine(nome);
                         Console.ReadKey();
                         break;
                     }
 
-                    case "4":
+                    case "3":
                     {
                         Console.Clear();
                         var password = Password1();
@@ -54,7 +45,6 @@ namespace foreachTEST
 
                     case "0":
                     {
-
                         break;
                     }
 
@@ -87,23 +77,13 @@ namespace foreachTEST
             return usernametemp;
         }
 
-        static string Pass() {
-            Console.WriteLine("Introduza a password");
-            string password, passwordtemp;
-            password = Console.ReadLine();
-            passwordtemp = password;
-            passwordtemp.ToLower();
-            passwordtemp.Replace(" ", "_");
-        return passwordtemp;
-        }
-
         static string Nomeproprio() {
             string nome, nometemp;
             Console.WriteLine("Introduza um nome");
             nome = Console.ReadLine();
             nometemp = nome;
             nometemp.ToLower();
-            var tn = nometemp.Substring(0, 1);
+            string tn = nometemp.Substring(0, 1);
             tn.ToUpper();
             nome = tn + nometemp;
             return nome;
