@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Diagnostics.Tracing;
+using System.Linq;
+using System.Threading;
 
-namespace testbed3
+namespace ConsoleApp2
 {
      
     class Program
     {
-
-         //usar enum para criar a lista das armas para usar no switch linha 144
+        public static int counter = 0;
+        public static int counterall = 0;
+        public static int[] results = new int[9000];
+        //usar enum para criar a lista das armas para usar no switch linha 144
         public enum Weapon_Type
         {
             Dagger,
@@ -23,7 +28,7 @@ namespace testbed3
              
             int[] dadosarray = { 4, 6, 8, 10, 12, 20, 100 };//array
             do
-            {
+            { 
                 Console.WriteLine("Introduza um numero: "); // 4, 6, 8, 10, 12, 20 ou 100
                 dados = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
@@ -107,8 +112,8 @@ namespace testbed3
         //funcao para o roll + basic atk + damage
         public static int  BasicAttack(int y)
         {
-
-        int valorcustom;
+            
+            int valorcustom;
             Console.Clear();
             Console.WriteLine("Escolhe a tua arma: Dagger, Shortsword, Battleaxe");
             
@@ -125,20 +130,23 @@ namespace testbed3
                Console.WriteLine("Por favor introduza um valor correto");
             }
 
-            //perguntar ao user quantas faces quer no dado e rolar apenas 1x.
+            //exercicio 2 da lesson 6, nao perguntamos ao user o nr de dots.
             Console.Clear();
-            Console.WriteLine("Introduza o numero de dots que quer no dado");
-            valorcustom = Convert.ToInt32(Console.ReadLine());
-            int attk = Rolldice(valorcustom, 1) ;
+            Console.WriteLine("Introduza o numero de vezes que quer rolar");
+            valorcustom = Console.Read();
+            int attk = Rolldice(20/*nr da face fixo*/, valorcustom/*nr de rolls varia no ex2 lesson 6*/) ;
             int dmg;
+
             //adicionar AC | modificador de damage perguntando ao user
             Console.WriteLine("Escolhe um valor para o dmg.multiplicador(superior a 10)");
             int AC = Convert.ToInt32(Console.ReadLine());
-
+            results[counterall] = attk;
+            counterall++; //all count
             if (attk >= AC)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"Result {attk}: Attack succeeded, rolling for damage…\n");
+                counter++; //successful count
                 Console.ForegroundColor = ConsoleColor.White; 
 
                 switch (weapon_Type)
@@ -147,27 +155,27 @@ namespace testbed3
                     case Weapon_Type.Dagger:
                         {
                             dmg = AC + Rolldice(4, 1);
-                            Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
+                            Console.WriteLine($"Attack resulted in {dmg} points of damage.\nAverage:{results.Average()}\nCounter:{counter}\nCounterAll:{counterall}\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;
                         }
                     case Weapon_Type.Shortsword:
                         {
                             dmg = AC + Rolldice(6, 1);
-                            Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
+                            Console.WriteLine($"Attack resulted in {dmg} points of damage.\nAverage:{results.Average()}\nCounter(success):{counter}\nCounterAll:{counterall}\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;
                         }
                     case Weapon_Type.Battleaxe:
                         {
                             dmg = AC + Rolldice(8, 1);
-                            Console.WriteLine($"Attack resulted in {dmg} points of damage.\nPrima uma tecla para continuar");
+                            Console.WriteLine($"Attack resulted in {dmg} points of damage.\nAverage:{results.Average()}\nCounter:{counter}\nCounterAll:{counterall}\nPrima uma tecla para continuar");
                             Console.ReadKey();
                             break;
                         }
                     default:
                     {
-                        Console.WriteLine("Por favor introduz uma arma valida.");
+                        Console.WriteLine("Por favor introduz uma arma valida.\n");
                         break;
                     }
                 }
