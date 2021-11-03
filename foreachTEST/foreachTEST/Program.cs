@@ -8,6 +8,7 @@ namespace foreachTEST
         public static void Main(string[] args)
         {
            
+
             do
             {
                 Console.Clear();
