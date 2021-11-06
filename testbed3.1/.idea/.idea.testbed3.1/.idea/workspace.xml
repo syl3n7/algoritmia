@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99f74a7-e022-4473-867a-a067a01e9f45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/testbed3.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multiplicar/multiplicar/obj/Debug/netcoreapp3.1/multiplicar.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplicar/multiplicar/obj/Debug/netcoreapp3.1/multiplicar.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.testbed3.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.testbed3.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/Debug/net5.0/testbed3.1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/Debug/net5.0/testbed3.1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/Debug/net5.0/testbed3.1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/Debug/net5.0/testbed3.1.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/Debug/net5.0/testbed3.1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/Debug/net5.0/testbed3.1.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testbed3.1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/testbed3.1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/testbed3.1.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbed3.1/obj/testbed3.1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/testbed3.1/obj/testbed3.1.csproj.nuget.g.props" afterDir="false" />
     </list>
@@ -65,6 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1635808215879</updated>
       <workItem from="1635808222532" duration="20000" />
+      <workItem from="1636113869362" duration="108000" />
+      <workItem from="1636114028571" duration="612000" />
     </task>
     <servers />
   </component>
@@ -72,7 +76,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
