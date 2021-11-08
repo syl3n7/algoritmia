@@ -12,3 +12,17 @@ C:\Users\claud\Source\Repos\syl3n7\testbed-csharp\testbed\bin\Debug\netcoreapp3.
 C:\Users\claud\Source\Repos\syl3n7\testbed-csharp\testbed\obj\Debug\netcoreapp3.1\testbed.dll
 C:\Users\claud\Source\Repos\syl3n7\testbed-csharp\testbed\obj\Debug\netcoreapp3.1\testbed.pdb
 C:\Users\claud\Source\Repos\syl3n7\testbed-csharp\testbed\obj\Debug\netcoreapp3.1\testbed.genruntimeconfig.cache
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\bin\Debug\netcoreapp3.1\testbed.exe
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\bin\Debug\netcoreapp3.1\testbed.deps.json
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\bin\Debug\netcoreapp3.1\testbed.runtimeconfig.json
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\bin\Debug\netcoreapp3.1\testbed.runtimeconfig.dev.json
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\bin\Debug\netcoreapp3.1\testbed.dll
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\bin\Debug\netcoreapp3.1\testbed.pdb
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.csproj.AssemblyReference.cache
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.AssemblyInfoInputs.cache
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.AssemblyInfo.cs
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.csproj.CoreCompileInputs.cache
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.dll
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.pdb
+C:\Users\claud\Documents\algoritmia\testbed1\testbed\obj\Debug\netcoreapp3.1\testbed.genruntimeconfig.cache

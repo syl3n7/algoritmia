@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BxEnEEsqvDZKpujL5x6GkxmXIRoEQJcYJA5l/F5pVX2FrIhSWTGCcGHZcSav+K4Vs+yXsJRKc56HryC6Pr36rg==",
+  "dgSpecHash": "79Cpev0Zy7qYOw+uu5w7prFSJXYt/fvSs8v+eioonTukYnKYqHnEx7z2cC6HPG4pgO1Tz23Gn6k5tF1zSaeJAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\claud\\OneDrive\\Documents\\GitHub\\algoritmia\\testbed1\\testbed\\testbed.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\claud\\Documents\\algoritmia\\testbed1\\testbed\\testbed.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.20\\microsoft.netcore.app.host.win-x64.3.1.20.nupkg.sha512"
+  ],
   "logs": []
 }
