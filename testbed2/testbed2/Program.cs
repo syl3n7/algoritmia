@@ -11,7 +11,7 @@ namespace testbed2
             Console.WriteLine("Introduz o dia atual (de 1 a 7)");
             do
             {
-                day = Convert.ToInt32(Console.ReadLine());
+                day = Console.Read();
                 if (day < 1 || day > 7)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -23,7 +23,7 @@ namespace testbed2
             Console.WriteLine("Introduz a hora atual");
             do
             {
-                hour = Convert.ToInt32(Console.ReadLine());
+                hour = Console.Read();
                 if (hour < 0 || hour > 24)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;

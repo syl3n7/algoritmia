@@ -14,7 +14,7 @@ namespace testbed
             c = v; //fazer com que o contador tenha o mesmo valor que o numero do user
             Console.Clear(); // limpar o ecra
             Console.WriteLine("Números ímpares: ");
-            for (int i = 1; i <= c; i = i + 2)  // precorrer os numeros de 1 ate ao numero do user 
+            for (int i = 1; i < c; i = i + 2)  // precorrer os numeros de 1 ate ao numero do user 
             {
                 Console.WriteLine(i); // escrever cada numero existente 
                 s = s + i ;  // somar o numero atual ao soma para dar o total no fim

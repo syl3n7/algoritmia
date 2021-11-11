@@ -91,12 +91,9 @@ namespace ConsoleApp2
             for (int i = 1; i <= w; i++)
             {
                 random = r.Next(1, x + 1);
-
                 soma += random;
                 Console.WriteLine($"O valor da face {i} é: {random}");
-
             }
-
                 Console.WriteLine($"A soma das faces e: {soma}");
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("pressione enter para continuar");
@@ -105,14 +102,11 @@ namespace ConsoleApp2
                 Console.Clear();
                 close = 0;
                 return w;
-
         }
 
-         
         //funcao para o roll + basic atk + damage
         public static int  BasicAttack(int y)
         {
-            
             int valorcustom;
             Console.Clear();
             Console.WriteLine("Escolhe a tua arma: Dagger, Shortsword, Battleaxe");
