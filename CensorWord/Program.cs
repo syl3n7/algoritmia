@@ -11,7 +11,6 @@ namespace CensorWord
             string censored = "";
             string sentence;
             
-            
             Console.WriteLine("Please introduze the forbidden word: ");
             censoredword = Console.ReadLine();
             
@@ -25,7 +24,7 @@ namespace CensorWord
                     censored += "*";
                 }
                 finalsentence = sentence.Replace(censoredword, censored);
-                Console.WriteLine($"The censored sentenced is:\n{finalsentence}");
+                Console.WriteLine($"The censored sentence is:\n{finalsentence}");
             }
             else
             {
