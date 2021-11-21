@@ -11,6 +11,7 @@ namespace CensorWord
             string censored = "";
             string sentence;
             
+            
             Console.WriteLine("Please introduze the forbidden word: ");
             censoredword = Console.ReadLine();
             
