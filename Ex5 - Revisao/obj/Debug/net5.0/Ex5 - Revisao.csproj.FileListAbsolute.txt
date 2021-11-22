@@ -1,0 +1,16 @@
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\bin\Debug\net5.0\Ex5 - Revisao.exe
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\bin\Debug\net5.0\Ex5 - Revisao.deps.json
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\bin\Debug\net5.0\Ex5 - Revisao.runtimeconfig.json
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\bin\Debug\net5.0\Ex5 - Revisao.runtimeconfig.dev.json
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\bin\Debug\net5.0\Ex5 - Revisao.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\bin\Debug\net5.0\ref\Ex5 - Revisao.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\bin\Debug\net5.0\Ex5 - Revisao.pdb
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.csproj.AssemblyReference.cache
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.AssemblyInfoInputs.cache
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.AssemblyInfo.cs
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.csproj.CoreCompileInputs.cache
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\ref\Ex5 - Revisao.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.pdb
+C:\Users\claud\Documents\algoritmia\Ex5 - Revisao\obj\Debug\net5.0\Ex5 - Revisao.genruntimeconfig.cache

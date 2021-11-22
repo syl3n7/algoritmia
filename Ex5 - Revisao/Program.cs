@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Tracing;
 
 namespace Ex5___Revisao
 {
@@ -6,22 +7,25 @@ namespace Ex5___Revisao
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Introduza uma frase com amis de duas palavras");
             string original, first, last;
             string space = " ";
+            int wordcount = 0;
+            Console.WriteLine("Introduza uma frase com + de 2 palavras");
             original = Console.ReadLine();
 
-            
             for (int i = 0; i < original.Length; i++)
             {
-
+            //nao sei precorrer a string ate encontrar um espaco
                 if (original.Contains(space))
                 {
-                    
+                    wordcount++;
                 }
                 first = original.Substring(i);
-
+                //estou apenas a mostrar o numero de chars que a frase contem.
+                
             }
+            Console.WriteLine($"A frase tem {wordcount} palavras.");
+            
 /*
 if (sentence.Contains(censoredword))
             {
