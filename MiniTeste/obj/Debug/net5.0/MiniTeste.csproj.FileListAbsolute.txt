@@ -1,0 +1,16 @@
+C:\Users\claud\RiderProjects\MiniTeste\bin\Debug\net5.0\MiniTeste.exe
+C:\Users\claud\RiderProjects\MiniTeste\bin\Debug\net5.0\MiniTeste.deps.json
+C:\Users\claud\RiderProjects\MiniTeste\bin\Debug\net5.0\MiniTeste.runtimeconfig.json
+C:\Users\claud\RiderProjects\MiniTeste\bin\Debug\net5.0\MiniTeste.runtimeconfig.dev.json
+C:\Users\claud\RiderProjects\MiniTeste\bin\Debug\net5.0\MiniTeste.dll
+C:\Users\claud\RiderProjects\MiniTeste\bin\Debug\net5.0\ref\MiniTeste.dll
+C:\Users\claud\RiderProjects\MiniTeste\bin\Debug\net5.0\MiniTeste.pdb
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.csproj.AssemblyReference.cache
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.AssemblyInfoInputs.cache
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.AssemblyInfo.cs
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.csproj.CoreCompileInputs.cache
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.dll
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\ref\MiniTeste.dll
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.pdb
+C:\Users\claud\RiderProjects\MiniTeste\obj\Debug\net5.0\MiniTeste.genruntimeconfig.cache
