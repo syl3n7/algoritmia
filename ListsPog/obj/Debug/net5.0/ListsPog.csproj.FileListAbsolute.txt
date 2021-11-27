@@ -1,0 +1,5 @@
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.csproj.AssemblyReference.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.AssemblyInfoInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.AssemblyInfo.cs
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.csproj.CoreCompileInputs.cache
