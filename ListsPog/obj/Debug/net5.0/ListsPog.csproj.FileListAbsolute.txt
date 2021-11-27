@@ -3,3 +3,14 @@ C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\Li
 C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.AssemblyInfoInputs.cache
 C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.AssemblyInfo.cs
 C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\bin\Debug\net5.0\ListsPog.exe
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\bin\Debug\net5.0\ListsPog.deps.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\bin\Debug\net5.0\ListsPog.runtimeconfig.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\bin\Debug\net5.0\ListsPog.runtimeconfig.dev.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\bin\Debug\net5.0\ListsPog.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\bin\Debug\net5.0\ref\ListsPog.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\bin\Debug\net5.0\ListsPog.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ref\ListsPog.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\ListsPog\obj\Debug\net5.0\ListsPog.genruntimeconfig.cache
