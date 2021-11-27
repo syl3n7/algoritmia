@@ -18,7 +18,7 @@ namespace Arrays
                 for (int i = 0; i < listanumeros.Count; i++){
                     listanumeros.Sort();
                 }
-                for (int i = 0; i < listanumeros.Count; i++){
+                for (int i = 0; i < listanumeros.Count; i++){ 
                     Console.WriteLine(listanumeros[i]);
                 }
             }
