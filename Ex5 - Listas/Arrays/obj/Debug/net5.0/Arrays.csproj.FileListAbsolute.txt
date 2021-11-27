@@ -1,0 +1,16 @@
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\bin\Debug\net5.0\Arrays.exe
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\bin\Debug\net5.0\Arrays.deps.json
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.json
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.dev.json
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\bin\Debug\net5.0\Arrays.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\bin\Debug\net5.0\ref\Arrays.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\bin\Debug\net5.0\Arrays.pdb
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.csproj.AssemblyReference.cache
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.AssemblyInfo.cs
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\ref\Arrays.dll
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.pdb
+C:\Users\claud\Documents\algoritmia\Ex5 - Listas\Arrays\obj\Debug\net5.0\Arrays.genruntimeconfig.cache
