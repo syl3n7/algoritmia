@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net.Sockets;
 using System.Runtime.Serialization.Formatters;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Arrays
 {
@@ -8,20 +11,39 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            List <int> listanumeros = new List <int>();
-
-            if (e.KeyCode != Keys.Enter)
+            string space = "";
+            List <int> numero = new List <int>();
+            List <string> listastring = new List <string>();
+            Console.WriteLine("Por favor introduzir numero:");
+            do
             {
-                for (int i = 0; i < listanumeros.Count; i++){
-                    listanumeros.Add(Convert.ToInt32(Console.ReadLine()));
+                listastring.Add(Console.ReadLine());
+                //check if empty
+                foreach (var spac in listastring)
+                {
+                    
                 }
-                for (int i = 0; i < listanumeros.Count; i++){
-                    listanumeros.Sort();
+                if (listastring[i].Contains(space))
+                {
+                    break;
+                }else
+                {
+                    //add to list, sort and finnish
+                    numero = listastring.Select(x => int.Parse(x)).ToList();
+                    
+                    for (int i = 0; i < numero.Count; i++)
+                    {
+                        numero.Sort();
+                    }
+
+                    for (int i = 0; i < numero.Count; i++)
+                    {
+                        Console.WriteLine(numero[i]);
+                    }
                 }
-                for (int i = 0; i < listanumeros.Count; i++){ 
-                    Console.WriteLine(listanumeros[i]);
-                }
-            }
+
+            } while (listastring.Contains(space));
+            Console.WriteLine("Programa Terminado");
         }
     }
 }
