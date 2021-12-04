@@ -1,0 +1,16 @@
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\bin\Debug\net5.0\Exercicios - Queue Stack Dictionary.exe
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\bin\Debug\net5.0\Exercicios - Queue Stack Dictionary.deps.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\bin\Debug\net5.0\Exercicios - Queue Stack Dictionary.runtimeconfig.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\bin\Debug\net5.0\Exercicios - Queue Stack Dictionary.runtimeconfig.dev.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\bin\Debug\net5.0\Exercicios - Queue Stack Dictionary.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\bin\Debug\net5.0\ref\Exercicios - Queue Stack Dictionary.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\bin\Debug\net5.0\Exercicios - Queue Stack Dictionary.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.csproj.AssemblyReference.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.AssemblyInfoInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.AssemblyInfo.cs
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\ref\Exercicios - Queue Stack Dictionary.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Exercicios - Queue Stack Dictionary\obj\Debug\net5.0\Exercicios - Queue Stack Dictionary.genruntimeconfig.cache

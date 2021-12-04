@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios - Queue Stack Dictionary", "Exercicios - Queue Stack Dictionary.csproj", "{430641AB-3B1F-4280-9801-DCF394620DD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{430641AB-3B1F-4280-9801-DCF394620DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430641AB-3B1F-4280-9801-DCF394620DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430641AB-3B1F-4280-9801-DCF394620DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430641AB-3B1F-4280-9801-DCF394620DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
