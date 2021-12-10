@@ -1,0 +1,14 @@
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.csproj.AssemblyReference.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.AssemblyInfoInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.AssemblyInfo.cs
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\bin\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.exe
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\bin\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.deps.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\bin\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.runtimeconfig.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\bin\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.runtimeconfig.dev.json
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\bin\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\bin\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.dll
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.pdb
+C:\Users\claud\OneDrive\Documents\GitHub\algoritmia\Freq_Algoritmia_Ex1e2\obj\Debug\netcoreapp3.1\Freq_Algoritmia_Ex1e2.genruntimeconfig.cache
