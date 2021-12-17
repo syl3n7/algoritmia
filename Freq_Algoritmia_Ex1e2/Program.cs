@@ -6,7 +6,6 @@ namespace Freq_Algoritmia_Ex1e2
     {
         static void Main(string[] args)
         {
-
             ex1();
             Console.WriteLine("Prima uma tecla para continar para o ex2");
             Console.ReadKey();
