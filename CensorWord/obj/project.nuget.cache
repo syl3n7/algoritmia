@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XB60LCMSpXVLg/btRoeasho/2LOTbehXkIhPNu+Mg19bw1GblCvRCsVnEHBK0x+8L7N3zr7WPCdVEvomIlPGFg==",
+  "dgSpecHash": "005uB+6YPnTEE6jhH5drCEVIZOrBR4jioWoGOnNpPGjPr9+FEJe/+2um8GUyYGigrEM3A15b7eKCcLiqgVPX5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\claud\\Documents\\algoritmia\\CensorWord\\CensorWord.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

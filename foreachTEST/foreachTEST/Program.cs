@@ -93,7 +93,7 @@ namespace foreachTEST
         static string Password1() {
             Console.WriteLine("introduza a password a definir:");
             var password_user = Console.ReadLine();
-            string password_user_temp = "0";
+            var password_user_temp = "0";
 
             var flag = char.IsDigit(password_user, 0);
             if (password_user.Length is > 5 and < 8 || flag != true){

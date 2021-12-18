@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wqc8XN3rHAwEVJNXUC0lGTI2S+QqcaVoPmjzvhLH+ihf0tbVVZleB4AapgWsD0+ydA5ImasgH8HJxvkPoFSITA==",
+  "dgSpecHash": "w3zUHViUxRPT/2fBK7nNz5A/gbJsKBtsg+1/Z7aSmO6HcqwHfFc4O/QQXrYPj/3jLOEKDZyOppzKG3Gu6zm5YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\claud\\Documents\\algoritmia\\foreachTEST\\foreachTEST\\foreachTEST.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

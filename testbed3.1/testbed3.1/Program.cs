@@ -20,7 +20,7 @@ namespace ConsoleApp2
         };
         public static Weapon_Type weapon_Type;
         public static int close = 1;
-
+        
         static void Main(string[] args) // Main Function
         {
         
@@ -50,7 +50,7 @@ namespace ConsoleApp2
                         else if (qdados < 0)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Por favor introduza um numero valido (pressionar entre para continuar)");
+                            Console.WriteLine("Por favor introduza um numero valido \n Pressione uma tecla para continuar");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();
                             Console.Clear();
@@ -68,7 +68,7 @@ namespace ConsoleApp2
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Por favor introduza um numero valido (pressionar entre para continuar)");
+                    Console.WriteLine("Por favor introduza um numero valido \n Pressione uma tecla para continuar");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.ReadKey();
                     Console.Clear();
@@ -124,11 +124,11 @@ namespace ConsoleApp2
                Console.WriteLine("Por favor introduza um valor correto");
             }
 
-            //exercicio 2 da lesson 6, nao perguntamos ao user o nr de dots.
+            //exercicio 2, lesson 6, nao perguntamos ao user o nr de dots.
             Console.Clear();
             Console.WriteLine("Introduza o numero de vezes que quer rolar");
             valorcustom = Console.Read();
-            int attk = Rolldice(20/*nr da face fixo*/, valorcustom/*nr de rolls varia no ex2 lesson 6*/) ;
+            int attk = Rolldice(20/*nr dados na face do dado (valor fixo)*/, valorcustom) ;
             int dmg;
 
             //adicionar AC | modificador de damage perguntando ao user
@@ -139,7 +139,7 @@ namespace ConsoleApp2
             if (attk >= AC)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"Result {attk}: Attack succeeded, rolling for damage…\n");
+                Console.WriteLine($"Resultado {attk}: Ataque sucedido, a calcular dano…\n");
                 counter++; //successful count
                 Console.ForegroundColor = ConsoleColor.White; 
 

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ajpdgzMPYxXXntAjNzVB0zEq7+wjGf+BpEi84Pi8vXI/SsO/Nvq7Zl33HzSLGWPaq7ZgYe54W1gGwqNvaz0E2g==",
+  "dgSpecHash": "gXccvNHXrwed2kux0j9Z420QZd6j7AG8Hda8z6244Z7PzjlfS3i2EeO8a0/s9D33RkF/EW4rNaJrEjB9vZFDOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\claud\\Documents\\algoritmia\\testbed3.1\\testbed3.1\\testbed3.1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
