@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4oNGcQt8ToBdaa2IotK8cDhzI0kJg+fQ5B5kiXNBZBMSXSEGPmESyGVCgyYQai6eWMBvxcNCHEryLP3f4dcA0w==",
+  "dgSpecHash": "gKctdcTzGVC/UzgxvoQlpDgL7byMJ6m15b9npPa2PF5qZ/O80oC0hW4eP3Xake0CJ7ihOS9IzMfLUbarvdS27w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\claud\\OneDrive\\Documents\\GitHub\\algoritmia\\Freq_Algoritmia_Ex1e2\\Freq_Algoritmia_Ex1e2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\claud\\Documents\\algoritmia\\Freq_Algoritmia_Ex1e2\\Freq_Algoritmia_Ex1e2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }
