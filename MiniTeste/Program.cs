@@ -9,7 +9,8 @@ namespace Numeros_Teste
         {
             Console.WriteLine("How many numbers?");
             int n = Convert.ToInt32(Console.ReadLine());
-            if(n > 2){
+            if (n > 2)
+            {
                 int[] a = new int[n];
                 int menor = 0;
                 for (int i = 0; i < n; i++)
@@ -19,10 +20,13 @@ namespace Numeros_Teste
                     if (i == 0 || menor > a[i])
                         menor = a[i];
                 }
+
                 Console.WriteLine($"The Lowest number is: {menor}");
-            } else {
+            }
+            else
+            {
                 Console.WriteLine("Introduza numero superior a 2");
             }
-       }
+        }
     }
 }

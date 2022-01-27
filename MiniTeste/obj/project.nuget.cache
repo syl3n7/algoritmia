@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TJZ2FOsuolIc5r+m1vrijjqsByO2i0dYp1QfoXHpE6pLHFVzINJb1ZLJQ+c13XXtGYtmUfLH7UNBm1fEuR90yA==",
+  "dgSpecHash": "1dGWo6AXn8RlWWOKrWuugysaMdeJiVJYfWxmjuBpAioyNRc0CZfLKH3N/N8ziRer8kWKuovPiFfkEQ6obtYuhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\claud\\RiderProjects\\MiniTeste\\MiniTeste.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\claud\\Documents\\Github\\algoritmia\\MiniTeste\\MiniTeste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
